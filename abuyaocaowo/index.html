@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>啊不要操我了受不了了啊啊啊啊-深夜情绪宣泄与解压指南</title>
+  <meta name="description" content="啊不要操我了受不了了啊啊啊啊是一个面向高压力生活场景的深夜情绪宣泄与解压指南。整理呐喊、吐槽、深呼吸、助眠、运动释放等具体方法，并汇总本周更新的实录、问答与用户反馈，帮助找到适合当下状态的出口。">
+  <meta name="keywords" content="啊不要操我了受不了了啊啊啊啊">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f1b2e'/%3E%3Cpath d='M18 44c8-20 20-20 28 0' fill='none' stroke='%23f0a054' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='24' cy='26' r='3' fill='%23f0a054'/%3E%3Ccircle cx='40' cy='26' r='3' fill='%23f0a054'/%3E%3C/svg%3E">
+  <style>
+    :root{
+      --bg:#f7f4ef;
+      --surface:#ffffff;
+      --ink:#221d1a;
+      --ink-soft:#5f5750;
+      --line:#e2d9cf;
+      --primary:#2f2543;
+      --primary-soft:#4b3b66;
+      --accent:#d96b2b;
+      --accent-soft:#f5e2d4;
+      --gold:#b9862f;
+      --tag-bg:#efe8df;
+      --radius:12px;
+      --radius-sm:8px;
+      --shadow:0 6px 24px rgba(47,37,67,.08);
+      --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+      --anchor-offset:96px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    html:focus-within{scroll-padding-top:var(--anchor-offset)}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font-family:var(--font);
+      font-size:16px;
+      line-height:1.75;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    h1,h2,h3,h4{line-height:1.3;margin:0 0 .5em;font-weight:700;letter-spacing:.01em}
+    p{margin:0 0 1em}
+    ul,ol{margin:0 0 1em;padding-left:1.2em}
+    li{margin-bottom:.35em}
+    section[id],div[id],article[id]{scroll-margin-top:var(--anchor-offset)}
+    .wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+    .announcement-bar{
+      background:var(--primary);
+      color:#f3eee9;
+      font-size:13px;
+      line-height:1.5;
+      padding:8px 0;
+    }
+    .announcement-bar .wrap{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .announcement-bar strong{color:var(--accent);font-weight:600}
+    .announcement-bar a{color:#ffe2cb;text-decoration:underline;text-underline-offset:2px}
+    .site-header{
+      background:rgba(255,255,255,.94);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+      box-shadow:0 2px 14px rgba(47,37,67,.06);
+    }
+    .sticky-stack{
+      position:sticky;
+      top:0;
+      z-index:60;
+    }
+    .header-inner{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      padding:12px 0;
+    }
+    .brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+    .brand-mark{width:42px;height:42px;flex:0 0 42px}
+    .brand-text{font-size:15px;font-weight:700;line-height:1.2;color:var(--primary);max-width:170px}
+    .main-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;align-items:center}
+    .main-nav a{
+      font-size:14px;
+      color:var(--ink-soft);
+      padding:6px 10px;
+      border-radius:999px;
+      transition:background .2s,color .2s;
+      white-space:nowrap;
+    }
+    .main-nav a:hover{background:var(--tag-bg);color:var(--primary)}
+    .header-actions{display:flex;gap:8px;align-items:center;flex-shrink:0}
+    .search-box{position:relative;display:flex;align-items:center}
+    .search-box input{
+      font:inherit;
+      font-size:13px;
+      padding:7px 12px 7px 32px;
+      width:160px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:#fbf9f6;
+      color:var(--ink);
+      transition:width .2s,border-color .2s;
+    }
+    .search-box input:focus{outline:2px solid var(--gold);outline-offset:1px;width:200px;border-color:var(--gold)}
+    .search-box svg{position:absolute;left:10px;width:16px;height:16px;pointer-events:none;color:var(--ink-soft)}
+    .search-feedback{
+      position:absolute;
+      top:calc(100% + 6px);
+      right:0;
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius-sm);
+      box-shadow:var(--shadow);
+      font-size:13px;
+      padding:8px 12px;
+      min-width:180px;
+      display:none;
+      color:var(--ink-soft);
+    }
+    .search-feedback.show{display:block}
+    .menu-toggle{
+      display:none;
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius-sm);
+      padding:8px;
+      cursor:pointer;
+      color:var(--primary);
+    }
+    .menu-toggle svg{width:22px;height:22px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      background:radial-gradient(1200px 500px at 85% -10%, #3f3255 0%, #241d35 55%, #1a1527 100%);
+      color:#f4efe9;
+      padding:64px 0 72px;
+    }
+    .hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+    .hero-kicker{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:12px;
+      letter-spacing:.16em;
+      color:#f2b98e;
+      border:1px solid rgba(242,185,142,.5);
+      border-radius:999px;
+      padding:4px 12px;
+      margin-bottom:18px;
+    }
+    .hero h1{font-size:clamp(28px,4vw,42px);color:#fff;margin-bottom:14px}
+    .hero p{color:#d8cfc8;max-width:52ch}
+    .hero .tags{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+    .hero .tags span{
+      font-size:12px;
+      background:rgba(255,255,255,.1);
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:999px;
+      padding:3px 10px;
+      color:#f0e6dd;
+    }
+    .hero-actions{margin-top:24px;display:flex;flex-wrap:wrap;gap:10px}
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      font-size:14px;
+      font-weight:600;
+      padding:10px 20px;
+      border-radius:999px;
+      border:1px solid transparent;
+      transition:transform .2s,background .2s;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-ghost{background:transparent;color:#f4efe9;border-color:rgba(255,255,255,.35)}
+    .hero-art{position:relative;min-height:280px}
+    .hero-art svg{width:100%;height:auto;filter:drop-shadow(0 14px 30px rgba(0,0,0,.35))}
+    .hero-stats{
+      display:flex;
+      gap:22px;
+      margin-top:26px;
+      flex-wrap:wrap;
+    }
+    .hero-stats div{font-size:13px;color:#cdbfb4}
+    .hero-stats strong{display:block;font-size:22px;color:#fff;line-height:1.2;font-weight:700}
+    .main-layout{
+      display:grid;
+      grid-template-columns:minmax(0,2.1fr) minmax(260px,1fr);
+      gap:32px;
+      padding:44px 0 64px;
+      align-items:start;
+    }
+    .content-col{display:flex;flex-direction:column;gap:40px;min-width:0}
+    .side-col{display:flex;flex-direction:column;gap:28px;min-width:0}
+    .section-card{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:26px 26px 22px;
+      box-shadow:var(--shadow);
+    }
+    .section-head{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      margin-bottom:16px;
+      flex-wrap:wrap;
+    }
+    .section-head h2{font-size:20px;margin:0;color:var(--primary)}
+    .section-head .hint{font-size:12px;color:var(--ink-soft)}
+    .muted{color:var(--ink-soft);font-size:14px}
+    .grid-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .mini-card{
+      border:1px solid var(--line);
+      border-radius:var(--radius-sm);
+      padding:14px 16px;
+      background:#fdfbf8;
+      transition:transform .2s,border-color .2s;
+    }
+    .mini-card:hover{transform:translateY(-3px);border-color:var(--gold)}
+    .mini-card h3{font-size:15px;margin-bottom:6px;color:var(--primary)}
+    .mini-card p{font-size:13.5px;color:var(--ink-soft);margin:0}
+    .compact-list{list-style:none;padding:0;margin:0}
+    .compact-list li{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      padding:11px 0;
+      border-bottom:1px dashed var(--line);
+      font-size:14.5px;
+    }
+    .compact-list li:last-child{border-bottom:0}
+    .compact-list .date{flex:0 0 64px;font-size:12px;color:var(--gold);font-weight:600;padding-top:3px}
+    .compact-list .li-title{font-weight:600;color:var(--primary)}
+    .compact-list .li-desc{display:block;font-size:13px;color:var(--ink-soft);margin-top:2px}
+    .tag-index{display:flex;flex-wrap:wrap;gap:8px}
+    .tag-index a{
+      font-size:13px;
+      padding:6px 13px;
+      border-radius:999px;
+      background:var(--tag-bg);
+      color:var(--primary-soft);
+      border:1px solid transparent;
+      transition:background .2s,border-color .2s;
+    }
+    .tag-index a:hover{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+    .steps{counter-reset:step;list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px}
+    .steps li{
+      counter-increment:step;
+      display:grid;
+      grid-template-columns:34px 1fr;
+      gap:12px;
+      align-items:start;
+    }
+    .steps li::before{
+      content:counter(step);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:30px;
+      height:30px;
+      border-radius:50%;
+      background:var(--primary);
+      color:#fff;
+      font-size:14px;
+      font-weight:700;
+      margin-top:2px;
+    }
+    .steps h3{font-size:15px;margin-bottom:4px;color:var(--primary)}
+    .steps p{font-size:13.5px;color:var(--ink-soft);margin:0}
+    .compare-panel{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden}
+    .compare-panel > div{padding:16px}
+    .compare-panel .col-a{background:#fbf6f0;border-right:1px solid var(--line)}
+    .compare-panel .col-b{background:#f4f7f5}
+    .compare-panel h3{font-size:14px;margin-bottom:8px}
+    .compare-panel ul{padding-left:1.1em;margin:0;font-size:13.5px;color:var(--ink-soft)}
+    .quote-card{
+      border-left:4px solid var(--accent);
+      background:var(--accent-soft);
+      border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+      padding:16px 18px;
+      font-size:14.5px;
+      color:#5a341d;
+    }
+    .quote-card footer{font-size:12px;color:#8a5c3c;margin-top:8px}
+    .faq-item{border-bottom:1px solid var(--line);padding:6px 0}
+    .faq-item:last-child{border-bottom:0}
+    .faq-item summary{
+      cursor:pointer;
+      font-weight:600;
+      font-size:15px;
+      padding:10px 0;
+      list-style:none;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      color:var(--primary);
+    }
+    .faq-item summary::-webkit-details-marker{display:none}
+    .faq-item summary::after{content:"+";color:var(--accent);font-size:18px;line-height:1}
+    .faq-item[open] summary::after{content:"−"}
+    .faq-item .answer{font-size:14px;color:var(--ink-soft);padding:0 0 12px}
+    .comment-list{display:flex;flex-direction:column;gap:12px}
+    .comment{
+      border:1px solid var(--line);
+      border-radius:var(--radius-sm);
+      padding:13px 15px;
+      background:#fdfbf8;
+      font-size:14px;
+    }
+    .comment header{display:flex;gap:10px;align-items:baseline;margin-bottom:6px}
+    .comment .who{font-weight:600;color:var(--primary);font-size:13.5px}
+    .comment .when{font-size:12px;color:var(--ink-soft)}
+    .comment p{margin:0;color:#423a33}
+    .timeline{list-style:none;padding:0;margin:0;position:relative}
+    .timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+    .timeline li{position:relative;padding-left:30px;margin-bottom:16px}
+    .timeline li:last-child{margin-bottom:0}
+    .timeline li::before{
+      content:"";
+      position:absolute;left:0;top:5px;
+      width:16px;height:16px;border-radius:50%;
+      background:var(--surface);border:3px solid var(--accent);
+    }
+    .timeline .t-date{font-size:12px;color:var(--gold);font-weight:700}
+    .timeline .t-title{font-weight:600;color:var(--primary);font-size:14.5px;display:block;margin:1px 0 2px}
+    .timeline .t-desc{font-size:13px;color:var(--ink-soft);margin:0}
+    .trust-layers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .layer{
+      border-radius:var(--radius-sm);
+      padding:14px;
+      font-size:13px;
+      border:1px solid var(--line);
+    }
+    .layer h3{font-size:14px;margin-bottom:6px}
+    .layer.fact{background:#eef5f0}
+    .layer.reply{background:#fdf4e7}
+    .layer.spec{background:#f0eef7}
+    .layer p{margin:0;color:var(--ink-soft)}
+    .side-card{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:var(--shadow);
+    }
+    .side-card h2{font-size:16px;margin-bottom:12px;color:var(--primary)}
+    .side-nav{list-style:none;padding:0;margin:0;font-size:14px}
+    .side-nav li{margin-bottom:4px}
+    .side-nav a{
+      display:block;
+      padding:6px 10px;
+      border-radius:6px;
+      color:var(--ink-soft);
+      transition:background .2s,color .2s;
+    }
+    .side-nav a:hover,.side-nav a.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+    .article-body{
+      font-size:15px;
+      line-height:1.85;
+    }
+    .article-body h3{font-size:16.5px;margin:22px 0 10px;color:var(--primary)}
+    .article-body h3:first-of-type{margin-top:0}
+    .article-body p:last-child{margin-bottom:0}
+    .data-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0 16px}
+    .data-table th,.data-table td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+    .data-table th{background:#f7f2ea;color:var(--primary);font-weight:600}
+    .site-footer{
+      background:var(--primary);
+      color:#d6cdc5;
+      padding:44px 0 30px;
+      margin-top:10px;
+    }
+    .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+    .footer-brand .brand-text{color:#fff;font-size:16px}
+    .footer-brand p{font-size:13px;color:#b7aba0;margin-top:12px;max-width:32ch}
+    .footer-col h3{font-size:14px;color:#fff;margin-bottom:10px}
+    .footer-col a{display:block;font-size:13px;color:#b7aba0;padding:3px 0;transition:color .2s}
+    .footer-col a:hover{color:var(--accent)}
+    .footer-bottom{
+      border-top:1px solid rgba(255,255,255,.15);
+      margin-top:30px;
+      padding-top:16px;
+      font-size:12px;
+      color:#a99c90;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 24px;
+      justify-content:space-between;
+    }
+    .back-top{
+      position:fixed;
+      right:20px;
+      bottom:24px;
+      width:44px;height:44px;
+      border-radius:50%;
+      border:1px solid var(--line);
+      background:var(--surface);
+      color:var(--primary);
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:var(--shadow);
+      cursor:pointer;
+      opacity:0;visibility:hidden;
+      transition:opacity .25s,visibility .25s,transform .2s;
+      z-index:70;
+    }
+    .back-top.show{opacity:1;visibility:visible}
+    .back-top:hover{transform:translateY(-3px)}
+    .back-top svg{width:20px;height:20px}
+    @media (max-width:980px){
+      .main-layout{grid-template-columns:1fr}
+      .side-col{order:2}
+      .content-col{order:1}
+      .hero .wrap{grid-template-columns:1fr}
+      .hero-art{max-width:420px;margin:0 auto;min-height:0}
+      .footer-grid{grid-template-columns:1fr 1fr}
+      .grid-cards{grid-template-columns:1fr 1fr}
+    }
+    @media (max-width:720px){
+      .main-nav{
+        display:none;
+        position:absolute;
+        top:100%;left:0;right:0;
+        background:var(--surface);
+        border-bottom:1px solid var(--line);
+        padding:10px 16px 16px;
+        flex-direction:column;
+        align-items:stretch;
+      }
+      .main-nav.open{display:flex}
+      .main-nav a{padding:10px 12px;font-size:15px}
+      .header-inner{position:relative}
+      .menu-toggle{display:inline-flex;margin-left:auto}
+      .header-actions{order:3}
+      .search-box input{width:120px}
+      .search-box input:focus{width:150px}
+      .grid-cards{grid-template-columns:1fr}
+      .compare-panel{grid-template-columns:1fr}
+      .compare-panel .col-a{border-right:0;border-bottom:1px solid var(--line)}
+      .trust-layers{grid-template-columns:1fr}
+      .hero{padding:44px 0 52px}
+      .hero h1{font-size:26px}
+      .footer-grid{grid-template-columns:1fr}
+      .section-card{padding:20px 16px}
+      .back-top{right:12px;bottom:16px}
+    }
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+    }
+  </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-stack">
+  <div class="announcement-bar" id="announce">
+    <div class="wrap">
+      <span><strong>啊不要操我了受不了了啊啊啊啊</strong> · 11 月 7 日更新：新增「凌晨两点对着枕头喊五分钟」实录 4 条，附 11 月 5 日深夜吐槽墙精选。</span>
+      <a href="/#latest">查看更新</a>
+      <a href="/#faq">常见问题</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/#top" aria-label="回到首页">
+        <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="呐喊与呼吸的图形标志">
+          <rect width="64" height="64" rx="14" fill="#2f2543"/>
+          <path d="M16 42c7-18 25-18 32 0" fill="none" stroke="#d96b2b" stroke-width="4.5" stroke-linecap="round"/>
+          <circle cx="23" cy="25" r="3" fill="#f0a054"/>
+          <circle cx="41" cy="25" r="3" fill="#f0a054"/>
+          <path d="M26 36c3-2 9-2 12 0" fill="none" stroke="#f0a054" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">啊不要操我了受不了了啊啊啊啊</span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#pick">精选推荐</a>
+        <a href="/#latest">最新更新</a>
+        <a href="/#channels">分类入口</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">用户评论</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <label for="siteSearch" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">搜索宣泄方法或条目</label>
+          <input id="siteSearch" type="search" placeholder="搜索宣泄方法…" autocomplete="off">
+          <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="打开导航菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <section class="hero" id="hero" aria-labelledby="heroTitle">
+    <div class="wrap">
+      <div>
+        <span class="hero-kicker">深夜出口 · 情绪解压</span>
+        <h1 id="heroTitle">啊不要操我了受不了了啊啊啊啊</h1>
+        <p>给压力顶到嗓子眼的那几分钟找一个具体动作：嘶吼、写下来、冲冷水、出门走四百米，或者什么都不做只把呼吸拉长。这里收集被验证过的宣泄入口，也记录失败的回声。</p>
+        <div class="tags" aria-label="热门检索">
+          <span>枕头喊叫法</span>
+          <span>地铁深呼吸</span>
+          <span>深夜吐槽墙</span>
+          <span>下班碎纸仪式</span>
+          <span>4-7-8 呼吸</span>
+          <span>凌晨散步路线</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#pick">看今日精选</a>
+          <a class="btn btn-ghost" href="/#guide">从三步开始</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>268</strong>条收录宣泄实录</div>
+          <div><strong>41</strong>个具体操作法</div>
+          <div><strong>11 月 7 日</strong>最近一次更新</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 340" role="img" aria-label="深夜声波与呼吸圆环的原创构图">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d96b2b"/>
+              <stop offset="1" stop-color="#b9862f"/>
+            </linearGradient>
+          </defs>
+          <circle cx="210" cy="170" r="140" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1.5"/>
+          <circle cx="210" cy="170" r="110" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1.5"/>
+          <circle cx="210" cy="170" r="80" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="1.5"/>
+          <path d="M30 170h26l10-34 14 68 16-96 18 120 16-78 14 44 12-20h30l10-16 12 32 14-52 16 76 14-40 12 20h34l10-12 12 24h24" fill="none" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="210" cy="170" r="9" fill="#d96b2b"/>
+          <text x="210" y="300" text-anchor="middle" fill="rgba(244,239,233,.55)" font-size="13" font-family="PingFang SC,Microsoft YaHei,sans-serif">呼 —— 吸 —— 呼</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap main-layout">
+
+    <div class="content-col">
+
+      <section class="section-card" id="overview" aria-labelledby="overviewTitle">
+        <div class="section-head">
+          <h2 id="overviewTitle">领域概览：高压力时刻的出口分类</h2>
+          <span class="hint">按发生场景整理</span>
+        </div>
+        <p class="muted">深夜独处、通勤拥挤、会议连轴、家庭争执四类场景占了收录条目的大头。区别在于：独处可以出声，通勤只能无声，会议要控制时长，争执需要先离开原地。先认场景，再选动作。</p>
+        <div class="grid-cards">
+          <div class="mini-card">
+            <h3>深夜独处的嘶吼出口</h3>
+            <p>枕头闷声、车内关窗、浴室开排风，三个地点的隔音条件不同，适合的力度也不同。</p>
+          </div>
+          <div class="mini-card">
+            <h3>通勤路上的无声排解</h3>
+            <p>地铁深呼吸、提前一站下车步行、耳机里放白噪音，重点是不引人注意。</p>
+          </div>
+          <div class="mini-card">
+            <h3>会议间歇的三十秒复位</h3>
+            <p>洗手间冷水拍脸、楼梯间上下五层、把待办写进碎纸清单，用身体动作打断反刍。</p>
+          </div>
+          <div class="mini-card">
+            <h3>争执现场的撤离策略</h3>
+            <p>先出门买瓶水，十分钟后再对话。离开不是认输，是把音量降下来。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card" id="pick" aria-labelledby="pickTitle">
+        <div class="section-head">
+          <h2 id="pickTitle">精选内容推荐</h2>
+          <span class="hint">编辑手动筛选</span>
+        </div>
+        <div class="grid-cards">
+          <div class="mini-card">
+            <h3>枕头喊叫法：五分钟完整流程</h3>
+            <p>选厚枕头、关窗、计时五分钟、结束后喝半杯温水。11 月 3 日有读者补了「喊完立刻躺下会头晕」的提醒。</p>
+          </div>
+          <div class="mini-card">
+            <h3>4-7-8 呼吸：适合躺下后仍清醒的人</h3>
+            <p>吸气四秒、屏息七秒、呼气八秒，四个循环为一组。代谢科医生周岚在访谈里提过，它对入睡前的心跳加速有效，但对持续焦虑不够。</p>
+          </div>
+          <div class="mini-card">
+            <h3>下班碎纸仪式：把待办撕碎</h3>
+            <p>打印当天最烦的一条待办，撕成二十片以上再扔。物理动作给大脑一个「结束了」的信号。</p>
+          </div>
+          <div class="mini-card">
+            <h3>凌晨散步路线：三条低光害短径</h3>
+            <p>选路灯连续、有 24 小时便利店、单程 1.2 公里以内的路线，走完回来正好犯困。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card" id="latest" aria-labelledby="latestTitle">
+        <div class="section-head">
+          <h2 id="latestTitle">最新更新</h2>
+          <span class="hint">11 月 1 日—11 月 7 日</span>
+        </div>
+        <ul class="compact-list">
+          <li>
+            <span class="date">11-07</span>
+            <span><span class="li-title">新增「关窗吼五分钟」实录第 4 条</span><span class="li-desc">记录者住在临街六楼，用的是旧羽绒枕，反馈喉咙发干，补了温水建议。</span></span>
+          </li>
+          <li>
+            <span class="date">11-06</span>
+            <span><span class="li-title">深夜吐槽墙第 11 期上线</span><span class="li-desc">收录 17 条匿名留言，最长的一条 214 字，集中在项目截止和周会汇报。</span></span>
+          </li>
+          <li>
+            <span class="date">11-05</span>
+            <span><span class="li-title">「地铁深呼吸」操作卡改版</span><span class="li-desc">把原来的七步压缩成四步，删掉了需要闭眼的动作，避免坐过站。</span></span>
+          </li>
+          <li>
+            <span class="date">11-03</span>
+            <span><span class="li-title">碎纸仪式补充安全提示</span><span class="li-desc">提醒不要撕含个人信息的快递单和账单，先涂黑再处理。</span></span>
+          </li>
+          <li>
+            <span class="date">11-01</span>
+            <span><span class="li-title">助眠白噪音清单更新到第 6 版</span><span class="li-desc">保留雨声、风扇、火车三类，删掉音量起伏大的雷声文件。</span></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-card" id="channels" aria-labelledby="channelsTitle">
+        <div class="section-head">
+          <h2 id="channelsTitle">分类入口</h2>
+          <span class="hint">按动作类型检索</span>
+        </div>
+        <div class="tag-index">
+          <a href="/#guide">枕头喊叫法</a>
+          <a href="/#guide">4-7-8 呼吸</a>
+          <a href="/#guide">下班碎纸仪式</a>
+          <a href="/#deep">深夜吐槽墙</a>
+          <a href="/#guide">地铁深呼吸</a>
+          <a href="/#latest">凌晨散步路线</a>
+          <a href="/#comments">冷水洗脸复位</a>
+          <a href="/#pick">助眠白噪音</a>
+          <a href="/#deep">沉默十分钟</a>
+          <a href="/#faq">写下来再撕掉</a>
+          <a href="/#guide">楼梯间爬五层</a>
+          <a href="/#pick">车内关窗嘶吼</a>
+        </div>
+      </section>
+
+      <section class="section-card" id="deep" aria-labelledby="deepTitle">
+        <div class="section-head">
+          <h2 id="deepTitle">深度解析：出声宣泄到底有没有用</h2>
+          <span class="hint">含可核对时间线与数据对比</span>
+        </div>
+        <div class="article-body">
+          <p>先给判断：<strong>在规定时间、规定地点内的出声宣泄，短时降低主观烦躁有效；离开这两个约束，效果迅速衰减，甚至反噬。</strong>这个判断可以被反驳——只要有人拿出连续两周、每天超过四十分钟嘶吼后主观烦躁下降的数据。目前没有看到这样的记录。</p>
+
+          <h3>一条可核对的时间线</h3>
+          <ul>
+            <li><strong>10 月 12 日</strong>：读者「阿柚」在枕头喊叫法条目下留言，连续 5 天、每天 3 分钟，第 3 天开始觉得「喊完更空」。</li>
+            <li><strong>10 月 19 日</strong>：同一条目新增回复，把时长缩到 90 秒并加一杯温水，反馈「空落感没了」。</li>
+            <li><strong>10 月 28 日</strong>：深夜吐槽墙第 9 期收录 6 条类似反馈，其中 4 条提到时长是关键变量。</li>
+            <li><strong>11 月 3 日</strong>：操作卡改版，把建议时长从「五分钟以上」改成「90 秒—3 分钟」。</li>
+          </ul>
+
+          <h3>两种做法的对照</h3>
+          <table class="data-table">
+            <thead>
+              <tr><th>对比项</th><th>出声嘶吼</th><th>无声书写</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>见效速度</td><td>约 30 秒内主观烦躁下降</td><td>通常需要 5 分钟以上</td></tr>
+              <tr><td>持续时间</td><td>20—40 分钟后回落</td><td>次日仍有一定延续</td></tr>
+              <tr><td>使用门槛</td><td>需要隔音条件</td><td>只需纸笔或备忘录</td></tr>
+              <tr><td>主要风险</td><td>喉咙干痛、邻居投诉</td><td>越写越气、反刍加重</td></tr>
+            </tbody>
+          </table>
+          <p>写下来更适合反复出现的念头，嘶吼更适合已经顶到胸口、说不清楚的那几分钟。把两者叠在一起的「先喊再写」在 11 月 7 日的实录里出现 3 次，其中 2 次记录者说「写完就困了」。</p>
+
+          <h3>说法差异在哪里</h3>
+          <p>支持出声宣泄的一派引用的是运动后内啡肽与主观情绪评分变化，反对的一派强调的是习惯化——每天喊，第三周开始需要更大音量才能获得同样效果。两边的证据不在同一个时间尺度上：一个看单次，一个看三周。把「单次有效」直接推成「长期有用」，是目前流传最广的误读。</p>
+          <p>还有一层推测需要说清楚：深夜嘶吼的效果里，可能有一部分来自「终于有一个只属于自己的动作」。这是推测，没有对照数据支撑，但可以解释为什么两个人用同样方法、反馈差得很远。</p>
+          <p>可操作的结论只有一句：<strong>先从 90 秒开始，记录第二天早上的主观评分，连续三天没有改善就换方法，不用硬撑。</strong></p>
+        </div>
+      </section>
+
+      <section class="section-card" id="guide" aria-labelledby="guideTitle">
+        <div class="section-head">
+          <h2 id="guideTitle">体验指南：三步开始</h2>
+          <span class="hint">首次使用建议照做</span>
+        </div>
+        <ol class="steps">
+          <li>
+            <div>
+              <h3>先确认能不能出声</h3>
+              <p>看墙的厚度、邻居作息、窗户朝向。不确定就选无声方案：地铁深呼吸、冷水洗脸、写下来再撕掉。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>设一个 90 秒计时器</h3>
+              <p>手机翻扣在桌上，计时结束立刻停止。时长比力度更重要，这是 11 月 3 日改版后写进操作卡的第一句。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>记一行第二天早上的感受</h3>
+              <p>只写一个词和一个分数，比如「空 4 分」。连续三天再决定留不留这个动作，别凭当时的痛快下结论。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section-card" id="faq" aria-labelledby="faqTitle">
+        <div class="section-head">
+          <h2 id="faqTitle">常见问答</h2>
+          <span class="hint">点击展开</span>
+        </div>
+
+        <details class="faq-item" open>
+          <summary>枕头喊叫法会不会伤到嗓子？</summary>
+          <div class="answer">会，尤其是直接对着空气大喊。枕头能吸掉一部分高频，但声带照样在震动。建议先做三次深呼吸，喊的时候用腹部发力而不是喉咙，结束后喝半杯温水，当天不要再喊第二次。</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>合租或者住宿舍，有没有不出声的替代？</summary>
+          <div class="answer">有。把脸埋进枕头里做十次用力呼气、用冷水拍脸三十秒、或者写满一页纸再撕成二十片以上。这三种都不超过两分钟，也不容易被听到。地铁深呼吸同样适用于合租，只是需要提前一站下车找空隙。</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>4-7-8 呼吸法对心悸有用吗？</summary>
+          <div class="answer">对入睡前的心跳加速有帮助，对白天持续的心慌作用有限。代谢科医生周岚在 10 月 27 日的访谈里说得很直接：呼吸法调节的是自主神经的节奏，不能替代对持续症状的检查。心悸频繁出现，先去做心电图，不要靠呼吸法硬扛。</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>深夜吐槽墙可以匿名投稿吗？</summary>
+          <div class="answer">可以，投稿时不填昵称就显示为「匿名」。但请避开真实姓名、公司全称和门牌号。11 月 6 日第 11 期里有两条因为可以反推出具体公司被退回修改。</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>凌晨散步路线怎么选才安全？</summary>
+          <div class="answer">三个硬条件：路灯连续不中断、沿途有 24 小时便利店、单程不超过 1.2 公里。再加一条软条件：路面平整，避免施工路段。深夜走路的目的不是走远，走够八到十二分钟就该往回拐。</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>下班碎纸仪式撕什么都可以吗？</summary>
+          <div class="answer">不建议撕快递单、银行流水和带二维码的单据，碎片仍然可以拼回信息。更稳妥的做法是先涂黑关键字段，或者干脆用手写一张新的待办再撕。11 月 3 日更新的安全提示就是针对这一点。</div>
+        </details>
+      </section>
+
+      <section class="section-card" id="comments" aria-labelledby="commentsTitle">
+        <div class="section-head">
+          <h2 id="commentsTitle">用户评论</h2>
+          <span class="hint">来自条目下方留言</span>
+        </div>
+        <div class="comment-list">
+          <div class="comment">
+            <header><span class="who">阿柚</span><span class="when">11 月 7 日</span></header>
+            <p>把五分钟砍到 90 秒之后真的不一样。之前喊完站在那儿发懵，现在喝完水就能去洗澡。枕头得换成厚的那种，薄枕头隔音差一半。</p>
+          </div>
+          <div class="comment">
+            <header><span class="who">临街六楼</span><span class="when">11 月 7 日</span></header>
+            <p>关窗吼那条实录是我投的。补充一句：喉咙第二天会干，别喝冰水，温的。另外窗帘最好拉上，对面楼有人看会尴尬。</p>
+          </div>
+          <div class="comment">
+            <header><span class="who">匿名</span><span class="when">11 月 6 日</span></header>
+            <p>吐槽墙第 11 期那条 214 字的我看了三遍，写的全是周会汇报的事，跟我一模一样。不过投稿退回那条提醒挺有用，差点把部门名字带上。</p>
+          </div>
+          <div class="comment">
+            <header><span class="who">夜班第七年</span><span class="when">11 月 5 日</span></header>
+            <p>地铁深呼吸改版后不闭眼了，这是对的。之前闭眼差点坐过站，现在改成盯着车厢连接处呼吸，四步走完刚好到站。</p>
+          </div>
+          <div class="comment">
+            <header><span class="who">半信半疑</span><span class="when">11 月 4 日</span></header>
+            <p>说实话不太信嘶吼有什么用。我试了两晚，喊完还是挺烦，第二天嗓子还疼。倒是写下来再撕掉有点感觉，至少手上有事做。</p>
+          </div>
+          <div class="comment">
+            <header><span class="who">周一的咖啡</span><span class="when">11 月 3 日</span></header>
+            <p>碎纸仪式的安全提示来得及时。上个月撕完快递单被室友提醒，地址还能拼出来。现在改成手写待办再撕，写的字自己都认不出。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card" id="news" aria-labelledby="newsTitle">
+        <div class="section-head">
+          <h2 id="newsTitle">相关资讯</h2>
+          <span class="hint">同主题外部动向</span>
+        </div>
+        <ul class="compact-list">
+          <li>
+            <span class="date">11-06</span>
+            <span><span class="li-title">某音频平台上线「通勤呼吸」频道</span><span class="li-desc">单集 90 秒，节奏卡在地铁到站间隔，首周播放量进入生活类前十。</span></span>
+          </li>
+          <li>
+            <span class="date">11-04</span>
+            <span><span class="li-title">办公楼楼梯间被贴「请勿逗留」告示</span><span class="li-desc">有上班族把爬楼梯当复位动作，物业出于消防考虑限制停留时间，讨论集中在「能不能有别的空间」。</span></span>
+          </li>
+          <li>
+            <span class="date">11-02</span>
+            <span><span class="li-title">白噪音歌单删掉雷声类文件</span><span class="li-desc">部分用户反馈雷声的突然响度会惊醒浅眠者，歌单维护者在更新说明里写了这一条。</span></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-card" id="recommend" aria-labelledby="recommendTitle">
+        <div class="section-head">
+          <h2 id="recommendTitle">相关推荐</h2>
+          <span class="hint">按检索词整理</span>
+        </div>
+        <div class="tag-index">
+          <a href="/#guide">枕头喊叫法教程</a>
+          <a href="/#deep">深夜吐槽墙投稿规则</a>
+          <a href="/#guide">地铁深呼吸四步图</a>
+          <a href="/#faq">4-7-8 呼吸适合什么人</a>
+          <a href="/#pick">助眠白噪音清单第 6 版</a>
+          <a href="/#latest">凌晨散步路线三条短径</a>
+          <a href="/#comments">冷水洗脸复位实录</a>
+          <a href="/#pick">下班碎纸仪式替代方案</a>
+        </div>
+      </section>
+
+      <section class="section-card" id="trust" aria-labelledby="trustTitle">
+        <div class="section-head">
+          <h2 id="trustTitle">可信度分层：三个来源怎么读</h2>
+          <span class="hint">区分事实、回应与推测</span>
+        </div>
+        <div class="trust-layers">
+          <div class="layer fact">
+            <h3>事实层</h3>
+            <p>操作卡版本号、改版日期、条目数量、读者留言时间，这些可以直接对照更新记录核对。</p>
+          </div>
+          <div class="layer reply">
+            <h3>回应层</h3>
+            <p>读者反馈与操作卡修改之间的对应关系，比如 11 月 3 日时长调整，能查到前后两版说法。</p>
+          </div>
+          <div class="layer spec">
+            <h3>推测层</h3>
+            <p>「效果部分来自只属于自己的动作」属于推测，没有对照数据，引用时请标注为推测。</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="side-col" aria-label="侧栏导航与工具">
+      <div class="side-card">
+        <h2>页面导航</h2>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#pick">精选内容推荐</a></li>
+          <li><a href="/#latest">最新更新</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#recommend">相关推荐</a></li>
+          <li><a href="/#trust">可信度分层</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h2>今日一句</h2>
+        <div class="quote-card">
+          喊的时候用腹部，不是喉咙。九十秒到了就停，明天早上再判断值不值。
+          <footer>—— 11 月 3 日操作卡改版说明</footer>
+        </div>
+      </div>
+      <div class="side-card">
+        <h2>快捷入口</h2>
+        <div class="tag-index">
+          <a href="/#faq">合租不出声方案</a>
+          <a href="/#guide">90 秒计时法</a>
+          <a href="/#deep">两种做法对照</a>
+          <a href="/#comments">读者实录</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<footer class="site-footer" id="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-text">啊不要操我了受不了了啊啊啊啊</span>
+        <p>把顶到嗓子眼的那几分钟，换成一个能计时、能记录、第二天还能复查的动作。</p>
+      </div>
+      <div class="footer-col">
+        <h3>方法入口</h3>
+        <a href="/#guide">枕头喊叫法</a>
+        <a href="/#guide">4-7-8 呼吸</a>
+        <a href="/#guide">地铁深呼吸</a>
+        <a href="/#pick">下班碎纸仪式</a>
+      </div>
+      <div class="footer-col">
+        <h3>内容栏目</h3>
+        <a href="/#deep">深度解析</a>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#trust">可信度分层</a>
+      </div>
+      <div class="footer-col">
+        <h3>互动与说明</h3>
+        <a href="/#faq">常见问答</a>
+        <a href="/#latest">最新更新</a>
+        <a href="/#recommend">相关推荐</a>
+        <a href="/#overview">领域概览</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>页面所载条目、留言与时间为示例数据，用于展示栏目结构；健康相关描述不构成医疗建议。</span>
+      <span>更新时间：2026 年 11 月 8 日 · 对应更新项：11 月 7 日实录第 4 条与吐槽墙第 11 期</span>
+      <span>© 2026 深夜出口内容组</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 14 6-6 6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  var menuToggle = document.getElementById('menuToggle');
+  var mainNav = document.getElementById('mainNav');
+  var sideNav = document.getElementById('sideNav');
+  var backTop = document.getElementById('backTop');
+  var searchInput = document.getElementById('siteSearch');
+  var searchFeedback = document.getElementById('searchFeedback');
+
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuToggle.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
+    });
+    mainNav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.matchMedia('(max-width: 720px)').matches) {
+        mainNav.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded','false');
+        menuToggle.setAttribute('aria-label','打开导航菜单');
+      }
+    });
+  }
+
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
+  var navLinks = sideNav ? Array.prototype.slice.call(sideNav.querySelectorAll('a')) : [];
+  function highlightSideNav(){
+    var pos = window.scrollY + 140;
+    var current = null;
+    sections.forEach(function(sec){
+      if (sec.offsetTop <= pos) current = sec.id;
+    });
+    navLinks.forEach(function(a){
+      var id = a.getAttribute('href').replace('/#','');
+      a.classList.toggle('active', id === current);
+    });
+  }
+  window.addEventListener('scroll', function(){
+    highlightSideNav();
+    if (window.scrollY > 480) {
+      backTop.classList.add('show');
+    } else {
+      backTop.classList.remove('show');
+    }
+  }, {passive:true});
+  highlightSideNav();
+
+  if (backTop) {
+    backTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  var searchData = [
+    {text:'枕头喊叫法 90 秒 厚枕头 关窗 嘶吼 腹部发力', target:'/#guide'},
+    {text:'4-7-8 呼吸 入睡前 心跳加速 周岚 呼吸法', target:'/#faq'},
+    {text:'地铁深呼吸 通勤 提前一站 不闭眼 四步', target:'/#guide'},
+    {text:'下班碎纸仪式 手写待办 涂黑 快递单 安全提示', target:'/#pick'},
+    {text:'深夜吐槽墙 匿名投稿 214 字 周会 项目截止', target:'/#comments'},
+    {text:'凌晨散步路线 路灯 24 小时便利店 1.2 公里', target:'/#latest'},
+    {text:'助眠白噪音 雨声 风扇 火车 雷声删减', target:'/#pick'},
+    {text:'合租 不出声 冷水洗脸 写下来再撕掉', target:'/#faq'},
+    {text:'可信度分层 事实 回应 推测 对照更新记录', target:'/#trust'},
+    {text:'出声嘶吼 无声书写 对照 表 见效速度 风险', target:'/#deep'}
+  ];
+
+  function runSearch(){
+    var q = searchInput.value.trim().toLowerCase();
+    if (!q) {
+      searchFeedback.classList.remove('show');
+      searchFeedback.textContent = '';
+      return;
+    }
+    var hits = searchData.filter(function(item){
+      return item.text.toLowerCase().indexOf(q) !== -1;
+    });
+    if (hits.length === 0) {
+      searchFeedback.textContent = '没有找到「' + searchInput.value.trim() + '」，试试：枕头、呼吸、碎纸、吐槽墙。';
+    } else {
+      searchFeedback.innerHTML = '找到 ' + hits.length + ' 条：' + hits.slice(0,3).map(function(h){
+        return '<a href="' + h.target + '" style="color:#d96b2b">' + h.text.split(' ').slice(0,2).join(' ') + '</a>';
+      }).join('、');
+    }
+    searchFeedback.classList.add('show');
+  }
+  if (searchInput) {
+    searchInput.addEventListener('input', runSearch);
+    searchInput.addEventListener('keydown', function(e){
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        var q = searchInput.value.trim().toLowerCase();
+        if (!q) return;
+        var hit = searchData.find(function(item){
+          return item.text.toLowerCase().indexOf(q) !== -1;
+        });
+        if (hit) {
+          var targetId = hit.target.replace('/#','');
+          var el = document.getElementById(targetId);
+          if (el) {
+            el.scrollIntoView({behavior:'smooth', block:'start'});
+          }
+        }
+        searchFeedback.classList.remove('show');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if (!searchInput.parentNode.contains(e.target)) {
+        searchFeedback.classList.remove('show');
+      }
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "啊不要操我了受不了了啊啊啊啊",
+  "description": "高压力场景下的情绪宣泄与解压方法汇总，含嘶吼、呼吸、书写与散步等具体操作。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "枕头喊叫法会不会伤到嗓子？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "会，尤其是直接对着空气大喊。枕头能吸掉一部分高频，但声带照样在震动。建议用腹部发力而不是喉咙，结束后喝半杯温水，当天不要再喊第二次。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "合租或者住宿舍，有没有不出声的替代？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "有。把脸埋进枕头里做十次用力呼气、用冷水拍脸三十秒、或者写满一页纸再撕成二十片以上。这三种都不超过两分钟。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "4-7-8 呼吸法对心悸有用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "对入睡前的心跳加速有帮助，对白天持续的心慌作用有限。呼吸法调节的是自主神经的节奏，不能替代对持续症状的检查。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "深夜吐槽墙可以匿名投稿吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以，投稿时不填昵称就显示为匿名。但请避开真实姓名、公司全称和门牌号。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "凌晨散步路线怎么选才安全？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "三个硬条件：路灯连续不中断、沿途有 24 小时便利店、单程不超过 1.2 公里。走够八到十二分钟就该往回拐。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "下班碎纸仪式撕什么都可以吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不建议撕快递单、银行流水和带二维码的单据。更稳妥的做法是先涂黑关键字段，或者用手写一张新的待办再撕。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+  </html>
